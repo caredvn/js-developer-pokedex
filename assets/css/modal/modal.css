@@ -1,0 +1,53 @@
+@import url(./modal--content.css);
+@import url(./modal--close.css);
+@import url(./modal--pokemon.css);
+@import url(./modal--pokemon--name.css);
+@import url(./modal--pokemon--number.css);
+@import url(./modal--pokemon--detail.css);
+@import url(./detail--list.css);
+@import url(./detail--type.css);
+@import url(./modal--pokemon--img.css);
+@import url(./modal--info.css);
+@import url(./modal--info--title.css);
+@import url(./modal--info--list.css);
+@import url(./modal--info--item.css);
+@import url(./info--title.css);
+@import url(./info--item.css);
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.modal {
+  box-sizing: border-box;
+  border: none;
+  width: 100%;
+  top: 0;
+  padding: 0;
+  z-index: 1001; 
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    box-shadow: 1px 1px 1px var(--border-color);
+    border: 1px solid var(--border-color);
+    width: 80%;
+    top: 20%;
+    border-radius: 2em 0 2em 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .modal {
+    width: 50%;
+    top: 15%;
+  }
+}

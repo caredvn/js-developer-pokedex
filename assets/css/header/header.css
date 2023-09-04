@@ -1,0 +1,25 @@
+@import url(./header--title.css);
+@import url(./header--span.css);
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.2rem 2.4rem 4.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 3.2rem 15%;
+    font-size: 1.6rem;
+    height: 8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    width: 850px;
+    margin: 0 auto;
+    padding: 3.2rem 0;
+  }
+}

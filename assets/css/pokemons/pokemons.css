@@ -1,0 +1,13 @@
+@import url(./pokemons--list.css);
+@import url(./pokemon--card.css);
+@import url(./pokemon--card--number.css);
+@import url(./pokemon--card--name.css);
+@import url(./pokemon--card--detail.css);
+@import url(./pokemon--detail--list.css);
+@import url(./pokemon--detail--type.css);
+@import url(./pokemon--card--img.css);
+@import url(./pokemon--card--openModal.css);
+
+.pokemons {
+  height: 100%;
+}

@@ -1,0 +1,16 @@
+.pokemon__card__img {
+  justify-self: end;
+  height: 100px;
+}
+
+@media screen and (min-width: 400px) {
+  .pokemon__card__img {
+    height: 90px;
+  }  
+}
+
+@media screen and (min-width: 768px) {
+  .pokemon__card__img {
+    height: 120px;
+  }
+}

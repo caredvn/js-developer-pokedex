@@ -1,0 +1,6 @@
+.pokemon__card__number {
+  justify-self: end;
+  color: var(--low-opacity-text-color);
+  font-weight: var(--font-weight-bold);
+  font-size: 1.5em;
+}

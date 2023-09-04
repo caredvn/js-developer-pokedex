@@ -1,0 +1,6 @@
+.modal__pokemon__name {
+  font-size: 3em;
+  font-weight: var(--font-weight-semibold);
+  text-transform: capitalize;
+  text-shadow: 3px 3px 0px var(--low-opacity-text-color);
+}

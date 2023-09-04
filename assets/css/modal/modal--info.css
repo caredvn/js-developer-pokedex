@@ -1,0 +1,18 @@
+.modal__info {
+  grid-row: 3 / 4;
+  grid-column: 1 / 3;
+  background: var(--main-bg-color);
+  padding: 1rem 1.5em;
+  padding: 1.5em;
+  border-radius: 3rem 3rem 0 0;
+  font-size: 1.2rem;
+  color: var(--dark-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .modal__info {
+    font-size: 1.6rem;
+    padding: 1rem 3em;
+    border-radius: 0 0 2em 0;
+  }
+}

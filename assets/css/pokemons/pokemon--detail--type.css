@@ -1,0 +1,8 @@
+.pokemon__detail__type {
+  margin-bottom: .5em;
+  padding: .5em 1em;
+  background-color: var(--low-opacity-wt-bg);
+  border-radius: 1rem;
+  text-shadow: 1px 1px 1px var(--dark-text-color);
+  text-transform: capitalize;
+}

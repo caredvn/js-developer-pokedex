@@ -1,0 +1,7 @@
+.detail__type {
+  padding: .5em 1em;
+  background-color: var(--low-opacity-wt-bg);
+  border-radius: 1.5rem;
+  text-shadow: 1px 1px 1px var(--dark-text-color);
+  text-transform: capitalize;
+}

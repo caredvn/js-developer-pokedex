@@ -1,0 +1,8 @@
+.modal__info__title {
+  display: block;
+  font-size: 1.5em;
+  padding: 1em 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px var(--low-opacity-text-color) solid;
+  font-weight: var(--font-weight-bold);
+}

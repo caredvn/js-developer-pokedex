@@ -1,0 +1,9 @@
+.modal__content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: repeat(3, auto);
+  background-image: url(../../img/pokebola\ -\ branco.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 55% right 10%;
+  background-size: 35%;
+}

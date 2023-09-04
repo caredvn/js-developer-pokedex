@@ -1,0 +1,4 @@
+.modal__pokemon__detail {
+  grid-column: 1/2;
+  font-weight: var(--font-weight-semibold);
+}

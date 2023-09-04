@@ -1,0 +1,7 @@
+.modal__pokemon__number {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  letter-spacing: .1rem;
+  justify-self: end;
+  font-weight: var(--font-weight-semibold);
+}

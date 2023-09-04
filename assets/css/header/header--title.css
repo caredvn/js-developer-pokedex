@@ -1,0 +1,18 @@
+.header__title {
+  font-size: 2em;
+  font-weight: var(--font-weight-bold);
+  color: var(--text-atractive-color);
+  text-shadow: 3px 3px 0px var(--dark-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .header__title {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__title {
+    font-size: 4em;
+  }
+}

@@ -1,4 +1,3 @@
-
 const pokeApi = {}
 
 function convertPokeApiDetailToPokemon(pokeDetail) {
@@ -13,8 +12,17 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
     pokemon.type = type
 
     pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
+    pokemon.abilities = pokeDetail.abilities.map((abilitiesSlot) => abilitiesSlot.ability.name)
 
-    return pokemon
+    const habitatUrl = `https://pokeapi.co/api/v2/pokemon-species/${pokeDetail.id}/`
+    return fetch(habitatUrl)
+        .then((response) => response.json())
+        .then((habitat) => {
+            pokemon.habitat = habitat.habitat.name
+            pokemon.shape = habitat.shape.name
+            pokemon.eggGroups = habitat.egg_groups.map((egg_groupsSlot) => egg_groupsSlot.name)
+            return pokemon
+        })
 }
 
 pokeApi.getPokemonDetail = (pokemon) => {
@@ -23,7 +31,7 @@ pokeApi.getPokemonDetail = (pokemon) => {
         .then(convertPokeApiDetailToPokemon)
 }
 
-pokeApi.getPokemons = (offset = 0, limit = 5) => {
+pokeApi.getPokemons = (offset, limit) => {
     const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
 
     return fetch(url)
@@ -32,4 +40,5 @@ pokeApi.getPokemons = (offset = 0, limit = 5) => {
         .then((pokemons) => pokemons.map(pokeApi.getPokemonDetail))
         .then((detailRequests) => Promise.all(detailRequests))
         .then((pokemonsDetails) => pokemonsDetails)
+
 }

@@ -1,0 +1,15 @@
+.pagination__link {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  width: 15px;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--dark-text-color)
+}
+
+.active {
+  background-color: var(--btn-active-bg);
+  color: var(--light-text-color);
+}

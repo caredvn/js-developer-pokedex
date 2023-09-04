@@ -1,0 +1,16 @@
+.modal__info__item {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  padding-bottom: 1em;
+  justify-content: space-between;
+  align-items: end;
+  font-size: 1.25em;
+  align-items: center;
+}
+
+.modal__info__item ol {
+  display: flex;
+  gap: .5rem;
+  text-transform: capitalize;
+  flex-wrap: wrap;
+}

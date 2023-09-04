@@ -1,0 +1,5 @@
+.detail__list {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+}

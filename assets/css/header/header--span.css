@@ -1,0 +1,4 @@
+.header__span {
+  color: var(--dark-text-color);
+  font-weight: var(--font-weight-regular);
+}

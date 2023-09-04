@@ -1,24 +1,63 @@
-* {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url(./header/header.css);
+@import url(./pokemons/pokemons.css);
+@import url(./type.css);
+@import url(./pagination/pagination.css);
+@import url(./modal/modal.css);
+
+:root {
+  /* others background color */
+  --main-bg-color: linear-gradient(45deg, #daf1f9, #DDE2EB);
+  --low-opacity-wt-bg: #FFFFFF4D;
+  --btn-active-bg: #F7BA15;
+  --btn-hover-bg: #f7BB157A;
+  --btn-bg: #00000026;
+  --border-color: #00000044;
+
+  
+  /* pokemon type background*/
+  --type-normal-bg: #A8A77A;
+  --type-fire-bg: #EE8130;
+  --type-grass-bg: #7AC74C;
+  --type-water-bg: #6390F0;
+  --type-electric-bg: #F7D02C;
+  --type-ice-bg: #96D9D6;
+  --type-fighting-bg: #C22E28;
+  --type-poison-bg: #A33EA1;
+  --type-ground-bg: #E2BF65;
+  --type-flying-bg: #A98FF3;
+  --type-psychic-bg: #F95587;
+  --type-bug-bg: #A6B91A;
+  --type-rock-bg: #B6A136;
+  --type-ghost-bg: #735797;
+  --type-dragon-bg: #6F35FC;
+  --type-dark-bg: #705746;
+  --type-steel-bg: #B7B7CE;
+  --type-fairy-bg: #D685AD;
+
+  /* cor do texto */
+  --dark-text-color: #2C3151;
+  --medium-text-color: #787a7c;
+  --light-text-color: #FFFFFF;
+  --low-opacity-text-color: #00000026;
+  --text-atractive-color: #F7BA15;
+
+  /* text configurations */
+  --font-family: 'Inter', sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-regular: 400;
+  --font-weight-light: 300;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
-    background-color: #f6f8fc;
-}
-
-.content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
-}
-
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  background: var(--main-bg-color) no-repeat;
+  height: 100%;
 }

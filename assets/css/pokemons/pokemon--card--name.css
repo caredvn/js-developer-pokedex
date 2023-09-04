@@ -1,0 +1,5 @@
+.pokemon__card__name {
+  font-size: 2em;
+  font-weight: var(--font-weight-semibold);
+  text-transform: capitalize;
+}

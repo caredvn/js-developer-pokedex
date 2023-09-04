@@ -1,0 +1,30 @@
+.pokemon__card {
+  display: grid;
+  padding: 2.4rem 2.4rem 1.2rem 2.4rem;
+  margin: 0 2.4rem;
+  font-size: 1.2rem;
+  border-radius: 1.6rem;
+  position: relative;
+  background-image: url(../../img/pokebola\ -\ branco.svg);
+  background-repeat: no-repeat;
+  background-position: bottom -15px right -15px;
+  background-size: 50%;
+  color: var(--light-text-color);
+  box-shadow: 1px 1px 1px #00000044
+}
+
+@media screen and (min-width: 435px) {
+  .pokemon__card {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pokemon__card {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+}
