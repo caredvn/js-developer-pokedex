@@ -21,15 +21,15 @@ O desafio consiste na construção do projeto Pokedex a partir do que foi ensina
 
 Versão mobile (até 425px)
 
-![Pokedex - interface mobile]()
+![Pokedex - interface mobile](https://github.com/caredvn/js-developer-pokedex/assets/107898347/436d3878-87fb-4cb1-bf03-fcd345a1a6f7)
 
 Versão tablet (426px ---> 1023px)
 
-![Pokedex - interface tablet]()
+![Pokedex - interface tablet](https://github.com/caredvn/js-developer-pokedex/assets/107898347/576cf76a-3772-4fc3-a4ac-2b7fab022e72)
 
 Versão desktop (a partir de 1024px)
 
-![Pokedex - interface tablet]()
+![Pokedex - interface desktop](https://github.com/caredvn/js-developer-pokedex/assets/107898347/053a86fd-f3f5-4e7f-8bf0-ee87af887cc4)
 
 ### Links
 
