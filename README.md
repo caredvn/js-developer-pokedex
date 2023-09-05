@@ -1,5 +1,4 @@
 # Trilha JS Developer - Pokedex
-# Trilha JS Developer - Pokedex
 O projeto consiste na aplicação da API [PokeAPI](https://pokeapi.co) para construção de uma Pokedex.
 
 ## Conteúdos
