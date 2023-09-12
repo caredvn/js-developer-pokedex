@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  padding-top: 2rem;
+  padding: 2rem 0;
   background-color: var(--low-opacity-wt-bg);
   border-radius: 2rem 2rem 0 0;
 }
@@ -19,13 +19,13 @@
 @media screen and (min-width: 768px) {
   .pokemons__list {
     width: 70%;
-    padding: 4rem 5rem 0 5rem;
+    padding: 4rem 5rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .pokemons__list {
-    padding: 4rem 8rem 0 8rem;
+    padding: 4rem 8rem;
     grid-template-columns: 32.35% 32.35% 32.35%;
   }
 }
